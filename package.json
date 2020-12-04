@@ -1,0 +1,26 @@
+{
+  "name": "04_lab-linter",
+  "version": "1.0.0",
+  "description": "In this lab you'll be creating a web API that receives a block of code and responds with a linting status.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jillianlg/04_lab-linter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jillianlg/04_lab-linter/issues"
+  },
+  "homepage": "https://github.com/jillianlg/04_lab-linter#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
